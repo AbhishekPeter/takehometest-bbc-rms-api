@@ -85,23 +85,128 @@ takehometest-bbc-rms-api/
 - Maven 3.6+
 - IDE like IntelliJ IDEA or Eclipse
 
-### Steps
+### Steps to run the project on Windows or macOS.
 
-1. Clone or unzip the project
-2. Open terminal in the root folder
-3. Run:
-   ```bash
-   mvn clean test
-   ```
+1. Clone the Repository
+Prerequisite: Install Git on your system.
 
----
+- Windows:
+    Open Command Prompt or Git Bash
+    Run the following commands:
+    git clone https://github.com/<your-username>/takehometest-bbc-rms-api.git
+    cd takehometest-bbc-rms-api
 
-## Reports
+- macOS:
+    Open Terminal
+    Run the same commands as above.
 
-After execution, a HTML report is generated at:
+Note: Replace <your-username> with actual GitHub username.
 
-```
+2. Open the Project in IntelliJ IDEA (or Eclipse)
+Steps (Windows/macOS):
+   Open IntelliJ IDEA
+   Go to File > Open
+   Navigate to your project directory:
+
+Windows: C:\Users\<YourName>\takehometest-bbc-rms-api
+
+macOS: /Users/<YourName>/takehometest-bbc-rms-api
+
+Note: IntelliJ will detect it's a Maven project and load dependencies.
+
+3. Install Maven (if not already installed)
+- Windows:
+    Download Apache Maven
+    Extract it to: C:\Program Files\Apache\Maven
+
+    Set environment variables:
+    MAVEN_HOME: C:\Program Files\Apache\Maven
+    Add %MAVEN_HOME%\bin to the Path variable.
+
+    To verify:
+    bash
+    mvn -v
+
+- macOS:
+Install via Homebrew:
+
+    bash
+    brew install maven
+
+ 
+4. Install Project Dependencies
+From the terminal (in project root directory):
+
+bash
+mvn clean install
+
+This will:
+    Download all Maven dependencies
+    Compile the source code
+    Run unit and Cucumber tests
+
+5. Run the Tests
+Run all feature files with:
+
+bash
+mvn clean test
+
+Note: We can also right-click on TestRunner.java inside runner package and choose Run from IntelliJ.
+
+6. View the Test Report
+After test execution, open the report at:
+
+bash
 target/cucumber-reports.html
+
+Note :Right-click and Open With Browser or drag it into a browser window.
+
+Example: 
+![alt text](image-1.png)
+
+7. Logging Setup
+Ensure the logback.xml is inside src/main/resources. A basic example:
+
+xml
+
+<configuration>
+  <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+    <file>logs/test-execution.log</file>
+    <encoder>
+      <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <root level="INFO">
+    <appender-ref ref="FILE" />
+  </root>
+</configuration>
+The log file will be generated at:
+
+Windows: .\logs\test-execution.log
+
+macOS: ./logs/test-execution.log
+
+Example: 
+![alt text](image.png)
+
+Adding Maven Dependencies
+To add dependencies like SLF4J, open pom.xml and add:
+
+xml
+
+<dependency>
+  <groupId>org.slf4j</groupId>
+  <artifactId>slf4j-api</artifactId>
+  <version>2.0.13</version>
+</dependency>
+<dependency>
+  <groupId>ch.qos.logback</groupId>
+  <artifactId>logback-classic</artifactId>
+  <version>1.4.14</version>
+</dependency>
+After editing, reload the project: In IntelliJ, right-click on the project → Maven > Reload Project
+
 ```
 
 ## API Under Test

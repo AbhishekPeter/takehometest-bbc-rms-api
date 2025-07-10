@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.378 s <<< FAILURE! -- in runner.TestRunner
-API Tests for RMS.Scenario 1 - Basic response validation -- Time elapsed: 2.238 s <<< FAILURE!
-java.lang.AssertionError: Response time exceeded limit: 1083 ms
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at helperutil.BBCApiHelper.validateResponseTime(BBCApiHelper.java:48)
-	at steps.BBCApiSteps.responseTimeShouldBeBelowMilliseconds(BBCApiSteps.java:40)
-	at ✽.response time should be below 1000 milliseconds(file:///C:/Users/pabhi/Music/takehometest-bbc-rms-api/src/test/resources/features/bbcApi.feature:6)
-
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.484 s -- in runner.TestRunner

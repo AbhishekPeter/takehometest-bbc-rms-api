@@ -208,12 +208,12 @@ xml
 After editing, reload the project: In IntelliJ, right-click on the project → Maven > Reload Project
 
 ```
-
 ## API Under Test
 
 ```
 https://testapi.io/api/RMSTest/ibltest
-```
 
-## Authors
+```
+##Author
+
 - Submitted by ABHISHEK PETER

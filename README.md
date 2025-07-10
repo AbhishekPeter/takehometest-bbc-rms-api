@@ -87,34 +87,33 @@ takehometest-bbc-rms-api/
 
 ### Steps to run the project on Windows or macOS.
 
-1. Clone the Repository
+#### 1. Clone the Repository
 Prerequisite: Install Git on your system.
 
 - Windows:
-    Open Command Prompt or Git Bash
-    Run the following commands:
-    git clone https://github.com/<your-username>/takehometest-bbc-rms-api.git
-    cd takehometest-bbc-rms-api
+    - Open Command Prompt or Git Bash
+    - Run the following commands:
+    - git clone https://github.com/<your-username>/takehometest-bbc-rms-api.git
+    - cd takehometest-bbc-rms-api
 
 - macOS:
-    Open Terminal
-    Run the same commands as above.
+    - Open Terminal
+    - Run the same commands as above.
 
-Note: Replace <your-username> with actual GitHub username.
+  Note: Replace <your-username> with actual GitHub username.
 
-2. Open the Project in IntelliJ IDEA (or Eclipse)
-Steps (Windows/macOS):
-   Open IntelliJ IDEA
-   Go to File > Open
-   Navigate to your project directory:
+#### 2. Open the Project in IntelliJ IDEA (or Eclipse)
+  Steps (Windows/macOS):
+   - Open IntelliJ IDEA
+   - Go to File > Open
+   - Navigate to your project directory:
 
-Windows: C:\Users\<YourName>\takehometest-bbc-rms-api
+  Windows: C:\Users\<YourName>\takehometest-bbc-rms-api
+  macOS: /Users/<YourName>/takehometest-bbc-rms-api
 
-macOS: /Users/<YourName>/takehometest-bbc-rms-api
+  Note: IntelliJ will detect it's a Maven project and load dependencies.
 
-Note: IntelliJ will detect it's a Maven project and load dependencies.
-
-3. Install Maven (if not already installed)
+#### 3. Install Maven (if not already installed)
 - Windows:
     Download Apache Maven
     Extract it to: C:\Program Files\Apache\Maven
@@ -124,63 +123,63 @@ Note: IntelliJ will detect it's a Maven project and load dependencies.
     Add %MAVEN_HOME%\bin to the Path variable.
 
     To verify:
+    ```
     bash
     mvn -v
+    ```
 
 - macOS:
-Install via Homebrew:
-
+  Install via Homebrew:
+    ```
     bash
     brew install maven
-
+    ```
  
-4. Install Project Dependencies
-From the terminal (in project root directory):
-
-bash
-mvn clean install
-
-This will:
+#### 4. Install Project Dependencies
+  From the terminal (in project root directory):
+  
+  ```
+  bash
+  mvn clean install
+  ```
+  This will:
     Download all Maven dependencies
     Compile the source code
     Run unit and Cucumber tests
 
-5. Run the Tests
-Run all feature files with:
+#### 5. Run the Tests
+  Run all feature files with:
+  ```
+  bash
+  mvn clean test
+  ```
+  Note: We can also right-click on TestRunner.java inside runner package and choose Run from IntelliJ.
 
-bash
-mvn clean test
+#### 6. View the Test Report
+  After test execution, open the report at:
+  ```
+  bash
+  target/cucumber-reports.html
+  ```
+  Note :Right-click and Open With Browser or drag it into a browser window.
 
-Note: We can also right-click on TestRunner.java inside runner package and choose Run from IntelliJ.
+  Example: 
+  ![alt text](image-1.png)
 
-6. View the Test Report
-After test execution, open the report at:
+#### 7. Logging Setup
+  Ensure the logback.xml is inside src/main/resources. 
+  The log file will be generated at:
+    Windows: .\logs\test-execution.log
+    macOS: ./logs/test-execution.log
 
-bash
-target/cucumber-reports.html
-
-Note :Right-click and Open With Browser or drag it into a browser window.
-
-Example: 
-![alt text](image-1.png)
-
-7. Logging Setup
-Ensure the logback.xml is inside src/main/resources. 
-The log file will be generated at:
-
-Windows: .\logs\test-execution.log
-
-macOS: ./logs/test-execution.log
-
-Example: 
-![alt text](image.png)
+  Example: 
+  ![alt text](image.png)
 
 
-
-```
 ## API Under Test
+```
 https://testapi.io/api/RMSTest/ibltest
 
 ```
-##Author
+## Author
 - Submitted by ABHISHEK PETER

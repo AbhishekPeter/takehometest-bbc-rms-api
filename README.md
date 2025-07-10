@@ -32,18 +32,48 @@ This is a Cucumber + Java + Rest Assured automation framework for testing the RM
 ## Project Structure
 
 ```
-bbc-rms-api-test/
-├── src/
-│   ├── main/java/
-│   │   └── utils/            # Logger utility
-│   ├── test/java/
-│   │   ├── model/            # POJOs for JSON parsing
-│   │   ├── runner/           # TestRunner.java
-│   │   └── steps/            # StepDefinitions
-│   └── resources/
-│       └── features/         # api.feature file (scenarios)
-├── pom.xml                   # Maven config file
-└── README.md                 # You're reading it!
+takehometest-bbc-rms-api/
+│
+├── pom.xml
+│
+└── src/
+    ├── main/
+    │   ├── java/
+    │   │   └── utils/
+    │   │       ├── Config.java
+    │   │       ├── Log.java
+    │   │       
+    │   └── resources/
+    │       ├── config.properties
+    │       └── logback.xml
+    │
+    └── test/
+        ├── java/
+        │   ├── helperutil/
+        │   │   └── BBCApiHelper.java
+        │   │
+        │   ├── hooks/
+        │   │   └── TestHooks.java
+        │   │
+        │   ├── model/
+        │   │   └── Element.java
+        │   │   └── Episode.java
+        │   │   └── Root.java
+        │   │   └── Schedule.java                      
+        │   │
+        │   ├── runner/
+        │   │   └── TestRunner.java
+        │   │
+        │   ├── steps/
+        │   │   └── BBCApiSteps.java
+        │   │
+        │   └── utils/
+        │       └── ApiUtils.java
+        │
+        └── resources/
+            └── features/
+                └── bbcApi.feature
+                └── bbcManualTests.feature
 ```
 ---
 

@@ -30,9 +30,10 @@ jobs:
       - name: Run Tests
         run: |
           if [ -d "src/test/resources/features" ]; then
-            mvn test  # This runs your Cucumber/RestAssured tests
+            mvn test
+            # This runs your Cucumber/RestAssured tests
           else
-            echo "No features directory found. Skipping test"
+            echo "No features directory found.Skipping test"
           fi
 
             

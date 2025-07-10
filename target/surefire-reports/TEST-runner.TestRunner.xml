@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="5.298" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\pabhi\Music\takehometest-bbc-rms-api\target\test-classes;C:\Users\pabhi\Music\takehometest-bbc-rms-api\target\classes;C:\Users\pabhi\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\pabhi\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\pabhi\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\pabhi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\pabhi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\pabhi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\pabhi\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\pabhi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\pabhi\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\pabhi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\pabhi\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\pabhi\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\pabhi\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\pabhi\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\pabhi\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\pabhi\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\pabhi\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\pabhi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\pabhi\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\pabhi\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\pabhi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\pabhi\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\pabhi\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\pabhi\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\pabhi\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\pabhi\.m2\repository\org\slf4j\slf4j-simple\2.0.13\slf4j-simple-2.0.13.jar;C:\Users\pabhi\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Users\pabhi\.jdks\ms-17.0.15\bin"/>
+    <property name="sun.java.command" value="C:\Users\pabhi\AppData\Local\Temp\surefire7959061633753409772\surefirebooter-20250710011945670_3.jar C:\Users\pabhi\AppData\Local\Temp\surefire7959061633753409772 2025-07-10T01-19-45_541-jvmRun1 surefire-20250710011945670_1tmp surefire_0-20250710011945670_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\pabhi\Music\takehometest-bbc-rms-api\target\test-classes;C:\Users\pabhi\Music\takehometest-bbc-rms-api\target\classes;C:\Users\pabhi\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\pabhi\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\pabhi\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\pabhi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\pabhi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\pabhi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\pabhi\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\pabhi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\pabhi\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\pabhi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\pabhi\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\pabhi\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\pabhi\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\pabhi\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\pabhi\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\pabhi\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\pabhi\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\pabhi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\pabhi\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\pabhi\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\pabhi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\pabhi\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\pabhi\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\pabhi\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\pabhi\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\pabhi\.m2\repository\org\slf4j\slf4j-simple\2.0.13\slf4j-simple-2.0.13.jar;C:\Users\pabhi\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\pabhi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Users\pabhi\.jdks\ms-17.0.15"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\pabhi\Music\takehometest-bbc-rms-api"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\pabhi\AppData\Local\Temp\surefire7959061633753409772\surefirebooter-20250710011945670_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.15+6-LTS"/>
+    <property name="user.name" value="pabhi"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-11369865"/>
+    <property name="localRepository" value="C:\Users\pabhi\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\pabhi\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2025.1.1.1"/>
+    <property name="java.version" value="17.0.15"/>
+    <property name="user.dir" value="C:\Users\pabhi\Music\takehometest-bbc-rms-api"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\pabhi\.jdks\ms-17.0.15\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\HP\HP One Agent;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin\bin;C:\Program Files\apache-maven-3.9.9\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\pabhi\AppData\Local\Programs\Python\Launcher\;C:\Users\pabhi\AppData\Local\Microsoft\WindowsApps;C:\Users\pabhi\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="17.0.15+6-LTS"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Scenario 1 - Basic response validation" classname="API Tests for RMS" time="2.09">
+    <system-out><![CDATA[
+Scenario: Scenario 1 - Basic response validation                         # src/test/resources/features/bbcApi.feature:3
+  Given I send a GET request to "https://testapi.io/api/RMSTest/ibltest" # steps.BBCApiSteps.iSendAGetRequestTo(java.lang.String)
+  Then the response code should be 200                                   # steps.BBCApiSteps.theResponseCodeShouldBe(int)
+  And response time should be below 1000 milliseconds                    # steps.BBCApiSteps.responseTimeShouldBeBelowMilliseconds(int)
+]]></system-out>
+    <system-err><![CDATA[[main] INFO API_LOG - Starting Scenario: Scenario 1 - Basic response validation
+[main] INFO API_LOG - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
+[main] INFO API_LOG - Request sent successfully.
+[main] INFO API_LOG - Verifying status code: Expected = 200, Actual = 200
+[main] INFO API_LOG - Status code verification passed.
+[main] INFO API_LOG - Actual response time: 931 ms
+[main] INFO API_LOG - Response time is within acceptable range.
+[main] INFO API_LOG - Scenario passed: Scenario 1 - Basic response validation
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario 2 - ID and Episode type validation" classname="API Tests for RMS" time="0.609">
+    <system-out><![CDATA[
+Scenario: Scenario 2 - ID and Episode type validation                    # src/test/resources/features/bbcApi.feature:8
+  Given I send a GET request to "https://testapi.io/api/RMSTest/ibltest" # steps.BBCApiSteps.iSendAGetRequestTo(java.lang.String)
+  Then all elements should have non-empty id and episode type episode    # steps.BBCApiSteps.allElementsShouldHaveNonEmptyIdAndEpisodeTypeEpisode()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO API_LOG - Starting Scenario: Scenario 2 - ID and Episode type validation
+[main] INFO API_LOG - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
+[main] INFO API_LOG - Request sent successfully.
+[main] INFO API_LOG - Validating elements count = 5 and individual fields
+[main] INFO API_LOG - Elements validated successfully.
+[main] INFO API_LOG - Scenario passed: Scenario 2 - ID and Episode type validation
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario 3 - Title field validation for Episode" classname="API Tests for RMS" time="0.415">
+    <system-out><![CDATA[
+Scenario: Scenario 3 - Title field validation for Episode                # src/test/resources/features/bbcApi.feature:12
+  Given I send a GET request to "https://testapi.io/api/RMSTest/ibltest" # steps.BBCApiSteps.iSendAGetRequestTo(java.lang.String)
+  Then all episode titles should be non-null and non-empty               # steps.BBCApiSteps.allEpisodeTitlesShouldBeNonNullAndNonEmpty()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO API_LOG - Starting Scenario: Scenario 3 - Title field validation for Episode
+[main] INFO API_LOG - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
+[main] INFO API_LOG - Request sent successfully.
+[main] INFO API_LOG - Episode titles validated successfully.
+[main] INFO API_LOG - Scenario passed: Scenario 3 - Title field validation for Episode
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario 4 - Only one episode is live validation" classname="API Tests for RMS" time="0.375">
+    <system-out><![CDATA[
+Scenario: Scenario 4 - Only one episode is live validation               # src/test/resources/features/bbcApi.feature:16
+  Given I send a GET request to "https://testapi.io/api/RMSTest/ibltest" # steps.BBCApiSteps.iSendAGetRequestTo(java.lang.String)
+  Then only one episode should be live                                   # steps.BBCApiSteps.onlyOneEpisodeShouldBeLive()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO API_LOG - Starting Scenario: Scenario 4 - Only one episode is live validation
+[main] INFO API_LOG - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
+[main] INFO API_LOG - Request sent successfully.
+[main] INFO API_LOG - Only one episode is marked live.
+[main] INFO API_LOG - Scenario passed: Scenario 4 - Only one episode is live validation
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario 5 - Transmission date validation" classname="API Tests for RMS" time="0.43">
+    <system-out><![CDATA[
+Scenario: Scenario 5 - Transmission date validation                      # src/test/resources/features/bbcApi.feature:20
+  Given I send a GET request to "https://testapi.io/api/RMSTest/ibltest" # steps.BBCApiSteps.iSendAGetRequestTo(java.lang.String)
+  Then transmission start should be before transmission end              # steps.BBCApiSteps.transmissionStartShouldBeBeforeTransmissionEnd()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO API_LOG - Starting Scenario: Scenario 5 - Transmission date validation
+[main] INFO API_LOG - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
+[main] INFO API_LOG - Request sent successfully.
+[main] INFO API_LOG - Transmission dates validated successfully.
+[main] INFO API_LOG - Scenario passed: Scenario 5 - Transmission date validation
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario 6 - Response header check Date Validation" classname="API Tests for RMS" time="0.382">
+    <system-out><![CDATA[
+Scenario: Scenario 6 - Response header check Date Validation             # src/test/resources/features/bbcApi.feature:24
+  Given I send a GET request to "https://testapi.io/api/RMSTest/ibltest" # steps.BBCApiSteps.iSendAGetRequestTo(java.lang.String)
+  Then response header should contain Date                               # steps.BBCApiSteps.responseHeaderShouldContainDate()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO API_LOG - Starting Scenario: Scenario 6 - Response header check Date Validation
+[main] INFO API_LOG - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
+[main] INFO API_LOG - Request sent successfully.
+[main] INFO API_LOG - 'Date' header is present: Thu, 10 Jul 2025 00:19:52 GMT
+[main] INFO API_LOG - Scenario passed: Scenario 6 - Response header check Date Validation
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario 7 - 404 on invalid date - Validation of error fields on invalid path" classname="API Tests for RMS" time="0.292">
+    <system-out><![CDATA[
+Scenario: Scenario 7 - 404 on invalid date - Validation of error fields on invalid path # src/test/resources/features/bbcApi.feature:28
+  Given I send a GET request to "https://testapi.io/api/RMSTest/ibltest/2023-09-11"     # steps.BBCApiSteps.iSendAGetRequestTo(java.lang.String)
+  Then the response code should be 404                                                  # steps.BBCApiSteps.theResponseCodeShouldBe(int)
+  And the response should contain "details"                                             # steps.BBCApiSteps.theResponseShouldContain(java.lang.String)
+  And the response should contain "http_response_code"                                  # steps.BBCApiSteps.theResponseShouldContain(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[[main] INFO API_LOG - Starting Scenario: Scenario 7 - 404 on invalid date - Validation of error fields on invalid path
+[main] INFO API_LOG - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest/2023-09-11
+[main] INFO API_LOG - Request sent successfully.
+[main] INFO API_LOG - Verifying status code: Expected = 404, Actual = 404
+[main] INFO API_LOG - Status code verification passed.
+[main] INFO API_LOG - Response contains expected key: details
+[main] INFO API_LOG - Response contains expected key: http_response_code
+[main] INFO API_LOG - Scenario passed: Scenario 7 - 404 on invalid date - Validation of error fields on invalid path
+]]></system-err>
+  </testcase>
+</testsuite>

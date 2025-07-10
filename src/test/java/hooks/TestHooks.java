@@ -5,9 +5,12 @@
  import io.cucumber.java.After;
  import io.cucumber.java.Before;
  import io.cucumber.java.Scenario;
+ import org.junit.BeforeClass;
+ import utils.Config;
  import utils.Log;
 
  public class TestHooks {
+
 
      @Before
      public void beforeScenario(Scenario scenario) {

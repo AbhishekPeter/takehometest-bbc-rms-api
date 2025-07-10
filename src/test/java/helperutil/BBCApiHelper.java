@@ -3,6 +3,7 @@ package helperutil;
 import io.restassured.response.Response;
 import model.Element;
 import model.Root;
+import utils.Config;
 import utils.Log;
 
 import java.time.Instant;
@@ -16,10 +17,11 @@ public class BBCApiHelper {
 
     private Response response;
 
-    public void sendGetRequest(String endpoint) {
+
+    public void sendGetRequest(String fullUrl) {
         try {
-            Log.info("Sending GET request to endpoint: " + endpoint);
-            response = given().when().get(endpoint);
+            Log.info("Sending GET request to endpoint: " + fullUrl);
+            response = given().when().get(fullUrl);
             Log.info("Request sent successfully.");
         } catch (Exception e) {
             Log.error("Failed to send GET request: " + e.getMessage());
@@ -135,5 +137,4 @@ public class BBCApiHelper {
             throw e;
         }
     }
-
 }

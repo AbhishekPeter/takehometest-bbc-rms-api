@@ -10,9 +10,12 @@ public class Config {
 
     static {
         try (InputStream input = Config.class.getClassLoader().getResourceAsStream("config.properties")) {
+            if (input == null) {
+                throw new RuntimeException("config.properties not found in classpath");
+            }
             properties.load(input);
         } catch (Exception e) {
-            throw new RuntimeException("Failed to load config.properties");
+            throw new RuntimeException("Failed to load config.properties" +e.getMessage());
         }
     }
 

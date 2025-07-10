@@ -5,14 +5,29 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
 import helperutil.BBCApiHelper;
+import utils.Config;
+import utils.Log;
 
 public class BBCApiSteps {
-
     BBCApiHelper apiHelper = new BBCApiHelper();
 
-    @Given("I send a GET request to {string}")
-    public void iSendAGetRequestTo(String endpoint) {
-        apiHelper.sendGetRequest(endpoint);
+    String baseUrl = Config.get("base_url");
+    String ibletestendpoint = Config.get("ibltest_endpoint");
+    String invalidPath = Config.get("invalid_path");
+
+
+    @Given("I send a GET request to the configured endpoint")
+    public void iSendAGetRequestTo() {
+        String fullUrl = baseUrl + ibletestendpoint;
+        Log.info("Sending GET request to: " +fullUrl);
+        apiHelper.sendGetRequest(fullUrl);
+    }
+
+    @Given("I send a GET request to the invalid path")
+    public void i_send_get_request_to_invalid_path() {
+        String fullUrl = baseUrl + invalidPath;
+        Log.info("Sending GET request to invalid path: " + invalidPath);
+        apiHelper.sendGetRequest(fullUrl);
     }
 
     @Then("the response code should be {int}")

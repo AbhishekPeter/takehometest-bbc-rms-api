@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Log {
-    private static final Logger logger = LoggerFactory.getLogger("API_LOG");
+    private static final Logger logger = LoggerFactory.getLogger(Log.class);
 
     public static void info(String msg) {
         logger.info(msg);
@@ -13,4 +13,5 @@ public class Log {
     public static void error(String msg) {
         logger.error(msg);
     }
+
 }

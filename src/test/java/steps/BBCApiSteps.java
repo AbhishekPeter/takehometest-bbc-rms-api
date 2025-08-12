@@ -15,7 +15,6 @@ public class BBCApiSteps {
     String ibletestendpoint = Config.get("ibltest_endpoint");
     String invalidPath = Config.get("invalid_path");
 
-
     @Given("I send a GET request to the configured endpoint")
     public void iSendAGetRequestTo() {
         String fullUrl = baseUrl + ibletestendpoint;

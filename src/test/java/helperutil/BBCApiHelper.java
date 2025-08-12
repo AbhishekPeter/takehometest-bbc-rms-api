@@ -12,11 +12,9 @@ import java.util.List;
 import static io.restassured.RestAssured.*;
 import static org.junit.Assert.*;
 
-
 public class BBCApiHelper {
 
     private Response response;
-
 
     public void sendGetRequest(String fullUrl) {
         try {

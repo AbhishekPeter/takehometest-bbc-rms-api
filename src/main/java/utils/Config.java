@@ -19,8 +19,16 @@ public class Config {
         }
     }
 
+    /*Returns the base URL for API calls.
+     WHY: Keeps environment details externalised so we can switch easily. */
+    public static String getBaseUrl() {
+        return properties.getProperty("baseUrl");
+    }
+
+    /* Optional generic getter for any property. */
     public static String get(String key) {
         return properties.getProperty(key);
     }
+
 }
 

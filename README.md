@@ -166,8 +166,8 @@ Prerequisite: Install Git on your system.
 #### 7. Logging Setup
   Ensure the logback.xml is inside src/main/resources. 
   The log file will be generated at:
-    Windows: .\logs\test-execution.log
-    macOS: ./logs/test-execution.log
+    Windows: .\logs\bbc-rms-api-${RUN_TIMESTAMP}.log
+    macOS: ./logs/bbc-rms-api-${RUN_TIMESTAMP}.log
 
   Example: 
   ![alt text](image.png)

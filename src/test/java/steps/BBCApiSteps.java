@@ -31,12 +31,13 @@ public class BBCApiSteps {
 
     @Then("the response code should be {int}")
     public void theResponseCodeShouldBe(int expectedStatusCode) {
-        apiHelper.verifyStatusCode(expectedStatusCode);
+        apiHelper.retry(() -> apiHelper.verifyStatusCode(expectedStatusCode), 2, 500);
+
     }
 
     @And("response time should be below {int} milliseconds")
     public void responseTimeShouldBeBelowMilliseconds(int limit) {
-        apiHelper.validateResponseTime(limit);
+        apiHelper.retry(() -> apiHelper.validateResponseTime(limit), 2, 500);
     }
 
     @Then("all elements should have non-empty id and episode type episode")

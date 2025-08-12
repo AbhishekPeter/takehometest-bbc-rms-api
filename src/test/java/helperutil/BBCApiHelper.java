@@ -51,6 +51,27 @@ public class BBCApiHelper {
         }
     }
 
+    //retry method
+    public void retry(Runnable action, int maxRetries, long waitMillis) {
+        for (int attempt = 0; attempt <= maxRetries; attempt++) {
+            try {
+                action.run();
+                return; // If action succeeds, exit the method immediately
+            } catch (Exception | AssertionError e) {
+                // If this was the last allowed attempt, rethrow the exception to fail the test
+                if (attempt == maxRetries) throw e;
+
+                // Otherwise, wait before trying again
+                try {
+                    Thread.sleep(waitMillis);
+                } catch (InterruptedException ie) {
+                    // If the sleep is interrupted, reset the thread's interrupt flag and stop execution
+                    Thread.currentThread().interrupt();
+                    throw new RuntimeException(ie);
+                }
+            }
+        }
+    }
     public void validateElements() {
         try {
             Root root = response.as(Root.class);

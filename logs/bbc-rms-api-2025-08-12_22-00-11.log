@@ -1,0 +1,49 @@
+2025-08-12 22:00:11 INFO  utils.Log - Starting Scenario: Scenario 1 - Basic response validation
+2025-08-12 22:00:11 INFO  utils.Log - Sending GET request to: https://testapi.io/api/RMSTest/ibltest
+2025-08-12 22:00:11 INFO  utils.Log - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
+2025-08-12 22:00:13 INFO  utils.Log - Request sent successfully.
+2025-08-12 22:00:13 INFO  utils.Log - Verifying status code: Expected = 200, Actual = 200
+2025-08-12 22:00:13 INFO  utils.Log - Status code verification passed.
+2025-08-12 22:00:13 INFO  utils.Log - Actual response time: 905 ms
+2025-08-12 22:00:13 INFO  utils.Log - Response time is within acceptable range.
+2025-08-12 22:00:13 INFO  utils.Log - Scenario passed: Scenario 1 - Basic response validation - PASSED
+2025-08-12 22:00:13 INFO  utils.Log - Starting Scenario: Scenario 2 - ID and Episode type validation
+2025-08-12 22:00:13 INFO  utils.Log - Sending GET request to: https://testapi.io/api/RMSTest/ibltest
+2025-08-12 22:00:13 INFO  utils.Log - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
+2025-08-12 22:00:13 INFO  utils.Log - Request sent successfully.
+2025-08-12 22:00:13 INFO  utils.Log - Validating elements count = 5 and individual fields
+2025-08-12 22:00:13 INFO  utils.Log - Elements validated successfully.
+2025-08-12 22:00:13 INFO  utils.Log - Scenario passed: Scenario 2 - ID and Episode type validation - PASSED
+2025-08-12 22:00:13 INFO  utils.Log - Starting Scenario: Scenario 3 - Title field validation for Episode
+2025-08-12 22:00:13 INFO  utils.Log - Sending GET request to: https://testapi.io/api/RMSTest/ibltest
+2025-08-12 22:00:13 INFO  utils.Log - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
+2025-08-12 22:00:14 INFO  utils.Log - Request sent successfully.
+2025-08-12 22:00:14 INFO  utils.Log - Episode titles validated successfully.
+2025-08-12 22:00:14 INFO  utils.Log - Scenario passed: Scenario 3 - Title field validation for Episode - PASSED
+2025-08-12 22:00:14 INFO  utils.Log - Starting Scenario: Scenario 4 - Only one episode is live validation
+2025-08-12 22:00:14 INFO  utils.Log - Sending GET request to: https://testapi.io/api/RMSTest/ibltest
+2025-08-12 22:00:14 INFO  utils.Log - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
+2025-08-12 22:00:14 INFO  utils.Log - Request sent successfully.
+2025-08-12 22:00:14 INFO  utils.Log - Only one episode is marked live.
+2025-08-12 22:00:14 INFO  utils.Log - Scenario passed: Scenario 4 - Only one episode is live validation - PASSED
+2025-08-12 22:00:14 INFO  utils.Log - Starting Scenario: Scenario 5 - Transmission date validation
+2025-08-12 22:00:14 INFO  utils.Log - Sending GET request to: https://testapi.io/api/RMSTest/ibltest
+2025-08-12 22:00:14 INFO  utils.Log - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
+2025-08-12 22:00:15 INFO  utils.Log - Request sent successfully.
+2025-08-12 22:00:15 INFO  utils.Log - Transmission dates validated successfully.
+2025-08-12 22:00:15 INFO  utils.Log - Scenario passed: Scenario 5 - Transmission date validation - PASSED
+2025-08-12 22:00:15 INFO  utils.Log - Starting Scenario: Scenario 6 - Response header check Date Validation
+2025-08-12 22:00:15 INFO  utils.Log - Sending GET request to: https://testapi.io/api/RMSTest/ibltest
+2025-08-12 22:00:15 INFO  utils.Log - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
+2025-08-12 22:00:15 INFO  utils.Log - Request sent successfully.
+2025-08-12 22:00:15 INFO  utils.Log - 'Date' header is present: Tue, 12 Aug 2025 21:00:15 GMT
+2025-08-12 22:00:15 INFO  utils.Log - Scenario passed: Scenario 6 - Response header check Date Validation - PASSED
+2025-08-12 22:00:15 INFO  utils.Log - Starting Scenario: Scenario 7 - 404 on invalid date - Validation of error fields on invalid path
+2025-08-12 22:00:15 INFO  utils.Log - Sending GET request to invalid path: /ibltest/2023-09-11
+2025-08-12 22:00:15 INFO  utils.Log - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest/2023-09-11
+2025-08-12 22:00:15 INFO  utils.Log - Request sent successfully.
+2025-08-12 22:00:15 INFO  utils.Log - Verifying status code: Expected = 404, Actual = 404
+2025-08-12 22:00:15 INFO  utils.Log - Status code verification passed.
+2025-08-12 22:00:15 INFO  utils.Log - Response contains expected key: details
+2025-08-12 22:00:15 INFO  utils.Log - Response contains expected key: http_response_code
+2025-08-12 22:00:15 INFO  utils.Log - Scenario passed: Scenario 7 - 404 on invalid date - Validation of error fields on invalid path - PASSED

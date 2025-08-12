@@ -6,4 +6,3 @@ helperutil\BBCApiHelper.class
 model\Root.class
 runner\TestRunner.class
 hooks\TestHooks.class
-utils\ApiUtils.class

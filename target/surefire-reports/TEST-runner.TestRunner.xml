@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="5.88" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="5.132" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\pabhi\AppData\Local\Temp\surefire515790158984193375\surefirebooter-20250812121459802_3.jar C:\Users\pabhi\AppData\Local\Temp\surefire515790158984193375 2025-08-12T12-14-59_681-jvmRun1 surefire-20250812121459802_1tmp surefire_0-20250812121459802_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\pabhi\AppData\Local\Temp\surefire10717404790317833557\surefirebooter-20250812213055710_3.jar C:\Users\pabhi\AppData\Local\Temp\surefire10717404790317833557 2025-08-12T21-30-55_602-jvmRun1 surefire-20250812213055710_1tmp surefire_0-20250812213055710_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\pabhi\Music\takehometest-bbc-rms-api\target\test-classes;C:\Users\pabhi\Music\takehometest-bbc-rms-api\target\classes;C:\Users\pabhi\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\pabhi\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\pabhi\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\pabhi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\pabhi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\pabhi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\pabhi\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\pabhi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\pabhi\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\pabhi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\pabhi\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\pabhi\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\pabhi\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\pabhi\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\pabhi\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\pabhi\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\pabhi\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\pabhi\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\pabhi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\pabhi\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\pabhi\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\pabhi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\pabhi\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\pabhi\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\pabhi\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\pabhi\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\pabhi\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\pabhi\.m2\repository\ch\qos\logback\logback-classic\1.3.11\logback-classic-1.3.11.jar;C:\Users\pabhi\.m2\repository\ch\qos\logback\logback-core\1.3.11\logback-core-1.3.11.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\pabhi\AppData\Local\Temp\surefire515790158984193375\surefirebooter-20250812121459802_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\pabhi\AppData\Local\Temp\surefire10717404790317833557\surefirebooter-20250812213055710_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.2+7-58"/>
@@ -58,105 +58,105 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="Scenario 1 - Basic response validation" classname="API Tests for RMS" time="2.282">
+  <testcase name="Scenario 1 - Basic response validation" classname="API Tests for RMS" time="1.868">
     <system-out><![CDATA[
 Scenario: Scenario 1 - Basic response validation        # src/test/resources/features/bbcApi.feature:3
-12:15:01.429 INFO  utils.Log - Starting Scenario: Scenario 1 - Basic response validation
-12:15:01.439 INFO  utils.Log - Sending GET request to: https://testapi.io/api/RMSTest/ibltest
-12:15:01.441 INFO  utils.Log - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
-12:15:03.188 INFO  utils.Log - Request sent successfully.
+21:30:56.899 INFO  utils.Log - Starting Scenario: Scenario 1 - Basic response validation
+21:30:56.903 INFO  utils.Log - Sending GET request to: https://testapi.io/api/RMSTest/ibltest
+21:30:56.903 INFO  utils.Log - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
+21:30:58.489 INFO  utils.Log - Request sent successfully.
   Given I send a GET request to the configured endpoint # steps.BBCApiSteps.iSendAGetRequestTo()
-12:15:03.188 INFO  utils.Log - Verifying status code: Expected = 200, Actual = 200
-12:15:03.188 INFO  utils.Log - Status code verification passed.
+21:30:58.490 INFO  utils.Log - Verifying status code: Expected = 200, Actual = 200
+21:30:58.493 INFO  utils.Log - Status code verification passed.
   Then the response code should be 200                  # steps.BBCApiSteps.theResponseCodeShouldBe(int)
-12:15:03.200 INFO  utils.Log - Actual response time: 918 ms
-12:15:03.200 INFO  utils.Log - Response time is within acceptable range.
+21:30:58.493 INFO  utils.Log - Actual response time: 858 ms
+21:30:58.493 INFO  utils.Log - Response time is within acceptable range.
   And response time should be below 1000 milliseconds   # steps.BBCApiSteps.responseTimeShouldBeBelowMilliseconds(int)
-12:15:03.203 INFO  utils.Log - Scenario passed: Scenario 1 - Basic response validation
+21:30:58.493 INFO  utils.Log - Scenario passed: Scenario 1 - Basic response validation - PASSED
 ]]></system-out>
   </testcase>
-  <testcase name="Scenario 2 - ID and Episode type validation" classname="API Tests for RMS" time="0.644">
+  <testcase name="Scenario 2 - ID and Episode type validation" classname="API Tests for RMS" time="0.608">
     <system-out><![CDATA[
 Scenario: Scenario 2 - ID and Episode type validation                 # src/test/resources/features/bbcApi.feature:8
-12:15:03.214 INFO  utils.Log - Starting Scenario: Scenario 2 - ID and Episode type validation
-12:15:03.214 INFO  utils.Log - Sending GET request to: https://testapi.io/api/RMSTest/ibltest
-12:15:03.214 INFO  utils.Log - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
-12:15:03.590 INFO  utils.Log - Request sent successfully.
+21:30:58.503 INFO  utils.Log - Starting Scenario: Scenario 2 - ID and Episode type validation
+21:30:58.503 INFO  utils.Log - Sending GET request to: https://testapi.io/api/RMSTest/ibltest
+21:30:58.503 INFO  utils.Log - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
+21:30:58.897 INFO  utils.Log - Request sent successfully.
   Given I send a GET request to the configured endpoint               # steps.BBCApiSteps.iSendAGetRequestTo()
-12:15:03.863 INFO  utils.Log - Validating elements count = 5 and individual fields
-12:15:03.863 INFO  utils.Log - Elements validated successfully.
+21:30:59.112 INFO  utils.Log - Validating elements count = 5 and individual fields
+21:30:59.112 INFO  utils.Log - Elements validated successfully.
   Then all elements should have non-empty id and episode type episode # steps.BBCApiSteps.allElementsShouldHaveNonEmptyIdAndEpisodeTypeEpisode()
-12:15:03.863 INFO  utils.Log - Scenario passed: Scenario 2 - ID and Episode type validation
+21:30:59.114 INFO  utils.Log - Scenario passed: Scenario 2 - ID and Episode type validation - PASSED
 ]]></system-out>
   </testcase>
-  <testcase name="Scenario 3 - Title field validation for Episode" classname="API Tests for RMS" time="0.376">
+  <testcase name="Scenario 3 - Title field validation for Episode" classname="API Tests for RMS" time="0.452">
     <system-out><![CDATA[
 Scenario: Scenario 3 - Title field validation for Episode  # src/test/resources/features/bbcApi.feature:12
-12:15:03.868 INFO  utils.Log - Starting Scenario: Scenario 3 - Title field validation for Episode
-12:15:03.868 INFO  utils.Log - Sending GET request to: https://testapi.io/api/RMSTest/ibltest
-12:15:03.868 INFO  utils.Log - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
-12:15:04.228 INFO  utils.Log - Request sent successfully.
+21:30:59.114 INFO  utils.Log - Starting Scenario: Scenario 3 - Title field validation for Episode
+21:30:59.114 INFO  utils.Log - Sending GET request to: https://testapi.io/api/RMSTest/ibltest
+21:30:59.114 INFO  utils.Log - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
+21:30:59.504 INFO  utils.Log - Request sent successfully.
   Given I send a GET request to the configured endpoint    # steps.BBCApiSteps.iSendAGetRequestTo()
-12:15:04.234 INFO  utils.Log - Episode titles validated successfully.
+21:30:59.562 INFO  utils.Log - Episode titles validated successfully.
   Then all episode titles should be non-null and non-empty # steps.BBCApiSteps.allEpisodeTitlesShouldBeNonNullAndNonEmpty()
-12:15:04.234 INFO  utils.Log - Scenario passed: Scenario 3 - Title field validation for Episode
+21:30:59.562 INFO  utils.Log - Scenario passed: Scenario 3 - Title field validation for Episode - PASSED
 ]]></system-out>
   </testcase>
-  <testcase name="Scenario 4 - Only one episode is live validation" classname="API Tests for RMS" time="0.793">
+  <testcase name="Scenario 4 - Only one episode is live validation" classname="API Tests for RMS" time="0.471">
     <system-out><![CDATA[
 Scenario: Scenario 4 - Only one episode is live validation # src/test/resources/features/bbcApi.feature:16
-12:15:04.241 INFO  utils.Log - Starting Scenario: Scenario 4 - Only one episode is live validation
-12:15:04.243 INFO  utils.Log - Sending GET request to: https://testapi.io/api/RMSTest/ibltest
-12:15:04.243 INFO  utils.Log - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
-12:15:04.570 INFO  utils.Log - Request sent successfully.
+21:30:59.571 INFO  utils.Log - Starting Scenario: Scenario 4 - Only one episode is live validation
+21:30:59.571 INFO  utils.Log - Sending GET request to: https://testapi.io/api/RMSTest/ibltest
+21:30:59.571 INFO  utils.Log - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
+21:30:59.961 INFO  utils.Log - Request sent successfully.
   Given I send a GET request to the configured endpoint    # steps.BBCApiSteps.iSendAGetRequestTo()
-12:15:05.029 INFO  utils.Log - Only one episode is marked live.
+21:31:00.029 INFO  utils.Log - Only one episode is marked live.
   Then only one episode should be live                     # steps.BBCApiSteps.onlyOneEpisodeShouldBeLive()
-12:15:05.029 INFO  utils.Log - Scenario passed: Scenario 4 - Only one episode is live validation
+21:31:00.031 INFO  utils.Log - Scenario passed: Scenario 4 - Only one episode is live validation - PASSED
 ]]></system-out>
   </testcase>
-  <testcase name="Scenario 5 - Transmission date validation" classname="API Tests for RMS" time="0.432">
+  <testcase name="Scenario 5 - Transmission date validation" classname="API Tests for RMS" time="0.47">
     <system-out><![CDATA[
 Scenario: Scenario 5 - Transmission date validation         # src/test/resources/features/bbcApi.feature:20
-12:15:05.034 INFO  utils.Log - Starting Scenario: Scenario 5 - Transmission date validation
-12:15:05.034 INFO  utils.Log - Sending GET request to: https://testapi.io/api/RMSTest/ibltest
-12:15:05.034 INFO  utils.Log - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
-12:15:05.430 INFO  utils.Log - Request sent successfully.
+21:31:00.039 INFO  utils.Log - Starting Scenario: Scenario 5 - Transmission date validation
+21:31:00.039 INFO  utils.Log - Sending GET request to: https://testapi.io/api/RMSTest/ibltest
+21:31:00.039 INFO  utils.Log - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
+21:31:00.439 INFO  utils.Log - Request sent successfully.
   Given I send a GET request to the configured endpoint     # steps.BBCApiSteps.iSendAGetRequestTo()
-12:15:05.466 INFO  utils.Log - Transmission dates validated successfully.
+21:31:00.503 INFO  utils.Log - Transmission dates validated successfully.
   Then transmission start should be before transmission end # steps.BBCApiSteps.transmissionStartShouldBeBeforeTransmissionEnd()
-12:15:05.466 INFO  utils.Log - Scenario passed: Scenario 5 - Transmission date validation
+21:31:00.505 INFO  utils.Log - Scenario passed: Scenario 5 - Transmission date validation - PASSED
 ]]></system-out>
   </testcase>
-  <testcase name="Scenario 6 - Response header check Date Validation" classname="API Tests for RMS" time="0.377">
+  <testcase name="Scenario 6 - Response header check Date Validation" classname="API Tests for RMS" time="0.379">
     <system-out><![CDATA[
 Scenario: Scenario 6 - Response header check Date Validation # src/test/resources/features/bbcApi.feature:24
-12:15:05.476 INFO  utils.Log - Starting Scenario: Scenario 6 - Response header check Date Validation
-12:15:05.476 INFO  utils.Log - Sending GET request to: https://testapi.io/api/RMSTest/ibltest
-12:15:05.476 INFO  utils.Log - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
-12:15:05.849 INFO  utils.Log - Request sent successfully.
+21:31:00.514 INFO  utils.Log - Starting Scenario: Scenario 6 - Response header check Date Validation
+21:31:00.514 INFO  utils.Log - Sending GET request to: https://testapi.io/api/RMSTest/ibltest
+21:31:00.516 INFO  utils.Log - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest
+21:31:00.883 INFO  utils.Log - Request sent successfully.
   Given I send a GET request to the configured endpoint      # steps.BBCApiSteps.iSendAGetRequestTo()
-12:15:05.849 INFO  utils.Log - 'Date' header is present: Tue, 12 Aug 2025 11:15:07 GMT
+21:31:00.883 INFO  utils.Log - 'Date' header is present: Tue, 12 Aug 2025 20:31:00 GMT
   Then response header should contain Date                   # steps.BBCApiSteps.responseHeaderShouldContainDate()
-12:15:05.849 INFO  utils.Log - Scenario passed: Scenario 6 - Response header check Date Validation
+21:31:00.883 INFO  utils.Log - Scenario passed: Scenario 6 - Response header check Date Validation - PASSED
 ]]></system-out>
   </testcase>
-  <testcase name="Scenario 7 - 404 on invalid date - Validation of error fields on invalid path" classname="API Tests for RMS" time="0.298">
+  <testcase name="Scenario 7 - 404 on invalid date - Validation of error fields on invalid path" classname="API Tests for RMS" time="0.301">
     <system-out><![CDATA[
 Scenario: Scenario 7 - 404 on invalid date - Validation of error fields on invalid path # src/test/resources/features/bbcApi.feature:28
-12:15:05.857 INFO  utils.Log - Starting Scenario: Scenario 7 - 404 on invalid date - Validation of error fields on invalid path
-12:15:05.857 INFO  utils.Log - Sending GET request to invalid path: /ibltest/2023-09-11
-12:15:05.857 INFO  utils.Log - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest/2023-09-11
-12:15:06.153 INFO  utils.Log - Request sent successfully.
+21:31:00.890 INFO  utils.Log - Starting Scenario: Scenario 7 - 404 on invalid date - Validation of error fields on invalid path
+21:31:00.890 INFO  utils.Log - Sending GET request to invalid path: /ibltest/2023-09-11
+21:31:00.890 INFO  utils.Log - Sending GET request to endpoint: https://testapi.io/api/RMSTest/ibltest/2023-09-11
+21:31:01.176 INFO  utils.Log - Request sent successfully.
   Given I send a GET request to the invalid path                                        # steps.BBCApiSteps.i_send_get_request_to_invalid_path()
-12:15:06.155 INFO  utils.Log - Verifying status code: Expected = 404, Actual = 404
-12:15:06.155 INFO  utils.Log - Status code verification passed.
+21:31:01.176 INFO  utils.Log - Verifying status code: Expected = 404, Actual = 404
+21:31:01.176 INFO  utils.Log - Status code verification passed.
   Then the response code should be 404                                                  # steps.BBCApiSteps.theResponseCodeShouldBe(int)
-12:15:06.155 INFO  utils.Log - Response contains expected key: details
+21:31:01.182 INFO  utils.Log - Response contains expected key: details
   And the response should contain "details"                                             # steps.BBCApiSteps.theResponseShouldContain(java.lang.String)
-12:15:06.155 INFO  utils.Log - Response contains expected key: http_response_code
+21:31:01.182 INFO  utils.Log - Response contains expected key: http_response_code
   And the response should contain "http_response_code"                                  # steps.BBCApiSteps.theResponseShouldContain(java.lang.String)
-12:15:06.155 INFO  utils.Log - Scenario passed: Scenario 7 - 404 on invalid date - Validation of error fields on invalid path
+21:31:01.182 INFO  utils.Log - Scenario passed: Scenario 7 - 404 on invalid date - Validation of error fields on invalid path - PASSED
 ]]></system-out>
   </testcase>
 </testsuite>

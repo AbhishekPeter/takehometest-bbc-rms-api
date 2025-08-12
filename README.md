@@ -65,11 +65,8 @@ takehometest-bbc-rms-api/
         │   │   └── TestRunner.java
         │   │
         │   ├── steps/
-        │   │   └── BBCApiSteps.java
-        │   │
-        │   └── utils/
-        │       └── ApiUtils.java
-        │
+        │       └── BBCApiSteps.java
+        │         │
         └── resources/
             └── features/
                 └── bbcApi.feature

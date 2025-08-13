@@ -1,3 +1,5 @@
+[![Cucumber Test CI](https://github.com/AbhishekPeter/takehometest-bbc-rms-api/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/AbhishekPeter/takehometest-bbc-rms-api/actions/workflows/ci-cd.yml)
+
 # Take-home Test for BBC RMS API Automation Framework
 
 This is a Cucumber + Java + Rest Assured automation framework for testing the RMS API endpoint provided in the BBC SDET take-home task.
@@ -64,9 +66,9 @@ takehometest-bbc-rms-api/
         │   ├── runner/
         │   │   └── TestRunner.java
         │   │
-        │   ├── steps/
+        │   └── steps/
         │       └── BBCApiSteps.java
-        │         │
+        │         
         └── resources/
             └── features/
                 └── bbcApi.feature

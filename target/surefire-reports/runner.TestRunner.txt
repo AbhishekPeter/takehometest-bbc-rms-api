@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.617 s <<< FAILURE! -- in runner.TestRunner
-API Tests for RMS.Scenario 1 - Basic response validation -- Time elapsed: 3.406 s <<< FAILURE!
-java.lang.AssertionError: Response time exceeded limit: 1093 ms
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 13.42 s <<< FAILURE! -- in runner.TestRunner
+API Tests for RMS.Scenario 1 - Basic response validation -- Time elapsed: 4.283 s <<< FAILURE!
+java.lang.AssertionError: Response time exceeded limit: 1874 ms
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.assertTrue(Assert.java:42)
 	at helperutil.BBCApiHelper.validateResponseTime(BBCApiHelper.java:46)
